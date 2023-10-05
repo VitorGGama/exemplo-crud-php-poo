@@ -1,12 +1,13 @@
 <?php
-use ExemploCrudPoo\Fabricante;
+use ExemploCrudPoo\fabricante;
 require_once "../vendor/autoload.php";
 
-$fabricante = new Fabricante;
+$fabricante = new Fabricante;  
 
-$listaDeFabricantes = $fabricante->lerFabricantes();
+$listaDeFabricantes = $fabricante->lerFabricante();
 $quantidade = count($listaDeFabricantes);
 ?>
+<pre><?=var_dump($fabricante)?></pre>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>

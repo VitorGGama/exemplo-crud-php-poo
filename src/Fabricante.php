@@ -18,7 +18,7 @@ final class Fabricante {
         $this->conexao = Banco::conecta();
     }
 
-    public function lerFabricantes():array {
+    public function lerFabricante():array {
         $sql = "SELECT * FROM fabricantes ORDER BY nome";
         
         try {
