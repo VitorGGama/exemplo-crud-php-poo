@@ -1,6 +1,7 @@
 <?php
 use ExemploCrudPoo\Produto;
 
+
 require_once "../vendor/autoload.php";
 
 $produto = new Produto;
