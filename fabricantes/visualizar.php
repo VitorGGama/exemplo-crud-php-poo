@@ -2,8 +2,7 @@
 use ExemploCrudPoo\Fabricante;
 require_once "../vendor/autoload.php";
 
-$fabricante = new Fabricante;
-
+$fabricante = new Fabricante;  
 
 $listaDeFabricantes = $fabricante->lerFabricantes();
 $quantidade = count($listaDeFabricantes);
